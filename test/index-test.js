@@ -24,7 +24,7 @@ const DELAY = 50;
 describe('<CoordinatesButton />', () => {
   const spy = sinon.spy();
   const wrapper = shallow(<CoordinatesButton onReceiveCoordinates={spy} />);
-
+  
   afterEach(function () {
     spy.reset();
   });
